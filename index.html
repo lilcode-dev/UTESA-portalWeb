@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portal Web UTESA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body class="hidden">
+    
+    <div class="centrado" id="onload">
+        <div class="lds-facebook"><div></div><div></div><div></div></div>
+    </div>
+    <header>
+        <nav id="nav" class="nav1">
+            <div class="contenedor-nav">
+                <div class="logo">
+                    <a href="index.html">    
+                        <img src="img/utesalog2.gif" alt="UTESA">
+                    </a>
+                </div>
+                <div class="enlaces" id="enlaces">
+                    <a href="#" id="enlace-inicio" class="btn-header">Inicio</a>
+                    <a href="#" id="enlace-equipo" class="btn-header">Recintos</a>
+                    <a href="#" id="enlace-servicio" class="btn-header">Servicios</a>
+                    <a href="#" id="enlace-trabajo" class="btn-header">Club de Deporte</a>
+                    <a href="#" id="enlace-contacto" class="btn-header">Contacto</a>
+                </div>
+                <div class="icono" id="open">
+                    <span>&#9776;</span>
+                </div>
+            </div>
+        </nav>
+        <div class="textos">
+            <h1>Bienvenidos a UTESA</h1>
+            <h2>Universidad Tecnologica de Santiago</h2>
+        </div>
+    </header>
+    <main>
+        <section class="team contenedor" id="equipo">
+            <h3>Recintos en Santo Domingo</h3>
+            <p class="after"></p>
+            <div class="carde">
+                <div class="content-carde">
+                    <div class="people">
+                        <img src="img/maximo.jpg" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4></h4>
+                        <p>Recinto Maximo Gomez</p>
+                    </div>
+                </div>
+                <div class="content-carde">
+                    <div class="people">
+                        <img src="img/herrera.jpg" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4></h4>
+                        <p>Recinto Herrera</p>
+                    </div>
+                </div>
+                <div class="content-carde">
+                    <div class="people">
+                        <img src="img/farolitos.jpg" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4></h4>
+                        <p>Recinto Farolitos</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section >
+        <div class="slide">
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="background-image: url('img/slideimg1.jpg');">
+    </div>
+    <div class="carousel-item" style="background-image: url('img/slideimg.jpg');"></div>
+
+    </div>
+    <div class="carousel-item" style="background-image: url('img/slideimg2.jpg');"></div>
+    
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+            </div>
+        </section>
+        <section class="work contenedor" id="trabajo">
+            <h3>UTESA</h3>
+            <p class="after">La tecnologia es nuestro principal objetivo</p>
+            <div class="botones-work">
+                <ul>
+                    <li class="filter active" data-nombre='todos'>Todos</li>
+                    <li class="filter" data-nombre='diseño'>Deporte</li>
+                    <li class="filter" data-nombre='programacion'>Programacion</li>
+                    <li class="filter" data-nombre='marketing'>Graduados</li>
+                </ul>
+            </div>
+            <div class="galeria-work">
+                <div class="cont-work programacion">
+                    <div class="img-work">
+                        <img src="img/programacion1.jpeg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Laboratorios</h4>
+                    </div>
+                </div>
+                <div class="cont-work programacion">
+                    <div class="img-work">
+                        <img src="img/programacion2.jpeg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Programacion</h4>
+                    </div>
+                </div>
+                <div class="cont-work programacion">
+                    <div class="img-work">
+                        <img src="img/programacion3.jpeg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Inteligencia Artificial</h4>
+                    </div>
+                </div>
+                <div class="cont-work diseño">
+                    <div class="img-work">
+                        <img src="img/club2.JPG" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Karate</h4>
+                    </div>
+                </div>
+                <div class="cont-work diseño">
+                    <div class="img-work">
+                        <img src="img/club3.JPG" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Voleyball</h4>
+                    </div>
+                </div>
+                <div class="cont-work diseño">
+                    <div class="img-work">
+                        <img src="img/club1.jpeg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Bascketball</h4>
+                    </div>
+                </div>
+                <div class="cont-work marketing">
+                    <div class="img-work">
+                        <img src="img/gradu.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4></h4>
+                    </div>
+                </div>
+                <div class="cont-work marketing">
+                    <div class="img-work">
+                        <img src="img/gradu2.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4></h4>
+                    </div>
+                </div>
+                <div class="cont-work marketing">
+                    <div class="img-work">
+                        <img src="img/gradu3.webp" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4></h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contacto">
+        <div class="footer contenedor">
+            <div class="marca-logo">
+                <img src="img/utesalog2.gif" alt="">
+            </div>
+            <div class="iconos">
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-github"></i>
+            </div>
+        
+        </div>
+
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/filtro.js"></script>
+</body>
+</html>
